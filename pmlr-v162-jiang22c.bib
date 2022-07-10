@@ -1,0 +1,16 @@
+
+@InProceedings{pmlr-v162-jiang22c,
+  title = 	 {Optimal Algorithms for Stochastic Multi-Level Compositional Optimization},
+  author =       {Jiang, Wei and Wang, Bokun and Wang, Yibo and Zhang, Lijun and Yang, Tianbao},
+  booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
+  pages = 	 {10195--10216},
+  year = 	 {2022},
+  editor = 	 {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
+  volume = 	 {162},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {17--23 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v162/jiang22c/jiang22c.pdf},
+  url = 	 {https://proceedings.mlr.press/v162/jiang22c.html},
+  abstract = 	 {In this paper, we investigate the problem of stochastic multi-level compositional optimization, where the objective function is a composition of multiple smooth but possibly non-convex functions. Existing methods for solving this problem either suffer from sub-optimal sample complexities or need a huge batch size. To address this limitation, we propose a Stochastic Multi-level Variance Reduction method (SMVR), which achieves the optimal sample complexity of $\mathcal{O}\left(1 / \epsilon^{3}\right)$ to find an $\epsilon$-stationary point for non-convex objectives. Furthermore, when the objective function satisfies the convexity or Polyak-{Ł}ojasiewicz (PL) condition, we propose a stage-wise variant of SMVR and improve the sample complexity to $\mathcal{O}\left(1 / \epsilon^{2}\right)$ for convex functions or $\mathcal{O}\left(1 /(\mu\epsilon)\right)$ for non-convex functions satisfying the $\mu$-PL condition. The latter result implies the same complexity for $\mu$-strongly convex functions. To make use of adaptive learning rates, we also develop Adaptive SMVR, which achieves the same optimal complexities but converges faster in practice. All our complexities match the lower bounds not only in terms of $\epsilon$ but also in terms of $\mu$ (for PL or strongly convex functions), without using a large batch size in each iteration.}
+}
